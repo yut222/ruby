@@ -21,3 +21,10 @@ car.move("右",5)  # Carクラスのrunメソッドの呼び出し(引数は5)
 
 # クラスメソッド
 class Car
+
+  def self.turn(direction)
+    puts "#{direction}に曲がります。"
+  end
+end
+
+car.turn("右")
